@@ -1,0 +1,60 @@
+.btn-wrapper {
+    border-radius:50%;
+    margin:5px;
+    height: 4.8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    font-size: 0.8em;
+    background-color: #3a3a3a;
+    color: white;
+    flex: 1;
+}
+.btn-wrapper.greyBtn{
+    border-radius: 50%;
+    margin:5px;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4em;
+    background-color: #DDD;
+    color: #293944;
+    flex: 1;
+}
+.btn-wrapper.scienceGrey {
+    border-radius:50%;
+    margin:5px;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    font-size: 1.4em;
+    background-color: #3a3a3a;
+    color: white;
+    flex: 1;
+}
+
+.btn-wrapper.lgCircle{
+    background: #3a3a3a;
+    flex: 2;
+    border-radius: 40px;
+    margin: 5px;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4em;
+    color: white;
+    text-align: left;
+  }
+
+
+.operator {
+    background-color: #ea920e;
+    color: white;
+}
+
+
