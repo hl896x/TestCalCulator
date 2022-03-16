@@ -89,10 +89,12 @@ class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <div className="historySec">
+        <div className="historySec" style={{color:"white"}} >
           History record
-          {record = this.state.history }
-          {record.split(',').map((e)=>(
+          {}
+          {
+          record = this.state.history,
+          record.split(',').map((e)=>(
             <p style={{textAlign:'right', margin:'0', padding:'0', fontSize:'10px'}}>
               <Input input={e}  ></Input>
             </p>
