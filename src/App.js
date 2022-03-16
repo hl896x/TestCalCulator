@@ -26,7 +26,7 @@ class App extends Component {
   
 
   handleEqual = () => {
-      
+      try {
         this.setState({ input: math.eval(this.state.input) });
         this.setState(
           {
@@ -41,6 +41,11 @@ class App extends Component {
         );
         localStorage.setItem('history', JSON.stringify( this.state.history) );
         this.setState({calculated:false});
+      } catch (error) {
+        alert("invalid input")
+        return error
+      }
+        
 
 
   }
@@ -81,7 +86,7 @@ class App extends Component {
       }
     }
 
-
+    localStorage.clear()
    
     
   }
